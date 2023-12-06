@@ -17453,4 +17453,78 @@ fieldset:disabled .btn {
   background-color: #fff;
   border-radius: 50%;
 }
+
+.top {
+  max-width: 780px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.pricing .inner {
+  border: 1px solid #e1eeff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  transition: all .2s;
+  border-radius: 4px;
+}
+
+.pricing .inner:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.pricing .inner:hover .price {
+  color: #157239;
+}
+
+.pricing .inner .inner-top {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.pricing .inner .middle li {
+  color: #777;
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+.services {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/images/services-bg.jpg");
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.services .inner {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: all .2s;
+}
+
+.services .inner:hover {
+  border: 1px solid white;
+}
+
+.footer {
+  background-color: #20222E;
+}
+
+.footer .footer-widget-1 a {
+  color: #000;
+  padding: 6px 12px;
+  background-color: #fff;
+  border-radius: 4px;
+  margin-right: 6px;
+}
+
+.footer .footer-widget-2 li {
+  color: #d7d7d7;
+  margin-bottom: 8px;
+}
+
+.footer .footer-widget-2 a {
+  color: #d7d7d7;
+  transition: all .2s;
+}
+
+.footer .footer-widget-2 a:hover {
+  color: #cd3d25;
+}
 /*# sourceMappingURL=style.css.map */
